@@ -1,0 +1,26 @@
+<h1>
+    Table Data
+</h1>
+<div class="container">
+    <table class="table-div">
+       <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Number</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.designation }}</td>
+            <td>{{ item.number }}</td>
+        </tr>
+       </tbody>
+    </table>
+
+ 
+
+</div>
